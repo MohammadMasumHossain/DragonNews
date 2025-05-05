@@ -10,7 +10,7 @@ const NewsDetails = () => {
     const {id}=useParams();
 
     const [news,setNews] =useState({});
-    console.log(data,id);
+   
 
     useEffect(()=>{
         const newsdetails =data.find(singlenews=> singlenews.id == id)
